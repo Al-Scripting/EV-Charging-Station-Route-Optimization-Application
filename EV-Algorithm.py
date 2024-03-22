@@ -115,7 +115,7 @@ def Shortest_path_Algorithm(graph, charging_stations):
             print(f"{Colors.BOLD}{Colors.BLUE}Recommended Route:{Colors.ENDC}")
             print(f"{Colors.BOLD}{Colors.GREEN}The most efficient route from Node {start_node} is to Station {closest_station}, taking the path {recommended_path}, with a total distance of {closest_distance}.{Colors.ENDC}")
 
-#main function
+
 def main():
     edges = read_csv('EV.csv')  # Make sure to replace 'EV.csv' with the correct path to your CSV file
     graph = create_graph(edges)
